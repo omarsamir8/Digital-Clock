@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+  }
+  
+  .clock-container {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time-display {
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+  }
+  
+  #ampm {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  
